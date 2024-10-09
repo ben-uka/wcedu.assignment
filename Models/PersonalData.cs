@@ -1,4 +1,4 @@
-﻿using WestCoast_Education;
+﻿using Edu.models;
 
 namespace Edu.models;
 

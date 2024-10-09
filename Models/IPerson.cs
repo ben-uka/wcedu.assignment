@@ -1,4 +1,4 @@
-﻿namespace WestCoast_Education;
+﻿namespace Edu.models;
 
 public interface IPerson
 {
