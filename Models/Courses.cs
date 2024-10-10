@@ -34,6 +34,6 @@ public class Courses
     public override string ToString()
     {
         string courseType = IsOnSite ? "På plats" : "Distans";
-        return $"\n{Title} — {CourseNumber} \nKurslängd: {CourseLength} \nStartdatum: från {StartDate.ToString("yyyy-MM-dd")} till preliminärt slutdatum {EndDate.ToString("yyyy-MM-dd")}. \nKurstyp: {courseType} \nElevernas betygsättning av kursen: {StudentsRating}";
+        return $"\n{Title} — {CourseNumber} \nKurslängd: {CourseLength} \nStartdatum: från {StartDate.ToShortDateString()} till preliminärt slutdatum {EndDate.ToShortDateString()}. \nKurstyp: {courseType} \nElevernas betygsättning av kursen: {StudentsRating}";
     }
 }

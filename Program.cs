@@ -31,8 +31,8 @@ class Program
                 "MA2HT24",
                 "Matematik 2B",
                 "24 veckor",
-                DateTime.Now,
-                DateTime.Now.AddMonths(6),
+                new DateTime(2025, 1, 15),
+                new DateTime(2025, 7, 2),
                 true,
                 "8.5/10"
             ),
@@ -42,8 +42,8 @@ class Program
             "MA2HT24",
             "Matematik 2B",
             "24 veckor",
-            DateTime.Now,
-            DateTime.Now.AddMonths(6),
+            new DateTime(2025, 1, 15),
+            new DateTime(2025, 7, 2),
             true,
             "8.5/10"
         );
@@ -83,7 +83,7 @@ class Program
             "Folke Filbyters stig 3",
             "Hisings Backa",
             "422 47",
-            DateTime.Now.AddYears(-12),
+            new DateTime(2012, 2, 17),
             "Pedagogik"
         );
 
@@ -101,7 +101,7 @@ class Program
             "Brunnsgatan 4B",
             "Mölndal",
             "431 34",
-            DateTime.Now.AddMonths(-8),
+            new DateTime(2024, 3, 4),
             "IT-ansvarig"
         );
 
