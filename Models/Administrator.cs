@@ -13,9 +13,4 @@ public class Administrator : EducationManager
         string expertise
     )
         : base(firstName, lastName, phone, address, city, zipCode, employmentDate, expertise) { }
-
-    public override string ToString()
-    {
-        return $"{base.ToString()}";
-    }
 }

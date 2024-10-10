@@ -38,7 +38,7 @@ public class ManageSchool
         if (_students.Count < 5)
         {
             Console.WriteLine(
-                "Av ekonomiska skäl krävs minst fem anmälda till kursen senast tre veckor innan kursstart."
+                "OBS! Av ekonomiska skäl krävs minst fem anmälda till kursen senast tre veckor innan kursstart."
             );
         }
     }

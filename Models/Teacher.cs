@@ -37,7 +37,7 @@ public class Teacher : PersonalData
     {
         if (Courses.Count == 0)
         {
-            Console.WriteLine("");
+            Console.WriteLine(" — Inga registrerade kurser för tillfället.");
         }
         foreach (var course in Courses)
         {

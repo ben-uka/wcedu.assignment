@@ -24,20 +24,11 @@ class Program
             "Matematik",
             new List<Courses>()
         );
-
-        List<Courses> coursesList = new List<Courses>
+        try { }
+        catch (System.Exception)
         {
-            new Courses(
-                "MA2HT24",
-                "Matematik 2B",
-                "24 veckor",
-                new DateTime(2025, 1, 15),
-                new DateTime(2025, 7, 2),
-                true,
-                "8.5/10"
-            ),
-        };
-
+            throw;
+        }
         Courses matematik = new Courses(
             "MA2HT24",
             "Matematik 2B",
@@ -47,6 +38,8 @@ class Program
             true,
             "8.5/10"
         );
+
+        List<Courses> coursesList = new List<Courses> { matematik };
 
         Student patrik = new Student(
             "Patrik",
