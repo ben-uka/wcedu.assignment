@@ -14,7 +14,7 @@ class Program
 
         ManageSchool manageSchool = new ManageSchool();
 
-        Teacher teacher = new Teacher(
+        var teacher = new Teacher(
             "Hakim",
             "Saleh",
             "+46 76-515 22 74",
@@ -24,12 +24,8 @@ class Program
             "Matematik",
             new List<Courses>()
         );
-        try { }
-        catch (System.Exception)
-        {
-            throw;
-        }
-        Courses matematik = new Courses(
+
+        var matematik = new Courses(
             "MA2HT24",
             "Matematik 2B",
             "24 veckor",
@@ -41,7 +37,7 @@ class Program
 
         List<Courses> coursesList = new List<Courses> { matematik };
 
-        Student patrik = new Student(
+        var patrik = new Student(
             "Patrik",
             "Cederström",
             "+46 72-858 91 23",
@@ -69,7 +65,7 @@ class Program
         Console.WriteLine("");
         Console.WriteLine(patrik);
 
-        EducationManager educationManager = new EducationManager(
+        var educationManager = new EducationManager(
             "Linda",
             "Tomassen",
             "+46 73-971 19 00",
@@ -87,7 +83,7 @@ class Program
         Console.WriteLine(educationManager);
         Console.WriteLine("");
 
-        Administrator administrator = new Administrator(
+        var administrator = new Administrator(
             "Rosa",
             "Hjorth",
             "+46 73-100 41 38",
